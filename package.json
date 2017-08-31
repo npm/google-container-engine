@@ -1,0 +1,34 @@
+{
+  "name": "@npm/container-engine",
+  "version": "1.0.0",
+  "description": "interact with Google Cloud's Container Engine using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/google-cloud-container.git"
+  },
+  "keywords": [
+    "google",
+    "cloud",
+    "container"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/google-cloud-container/issues"
+  },
+  "homepage": "https://github.com/bcoe/google-cloud-container#readme",
+  "dependencies": {
+    "@google-cloud/common": "^0.13.5",
+    "@google-cloud/compute": "^0.8.0",
+    "extend": "^3.0.1",
+    "is": "^3.2.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
