@@ -29,7 +29,7 @@ cluster.create('npm-cluster-1', {
        issue_client_certificate: false
     }
   },
-  network: 'my-restricted network',
+  network: 'my-restricted-network',
   initial_node_count: 3,
   node_config: {
     oauth_scopes: [
