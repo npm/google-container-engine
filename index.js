@@ -3,6 +3,7 @@
 const common = require('@google-cloud/common')
 const util = require('util')
 const Cluster = require('./lib/cluster')
+const Operation = require('./lib/operation')
 
 function Container (options) {
   if (!(this instanceof Container)) {
@@ -24,6 +25,10 @@ function Container (options) {
 
 Container.prototype.cluster = function (id) {
   return new Cluster(this, id)
+}
+
+Container.prototype.operation = function (id) {
+  return new Operation(this, id)
 }
 
 util.inherits(Container, common.Service)
