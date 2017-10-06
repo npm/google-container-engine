@@ -4,7 +4,8 @@
   "description": "interact with Google Cloud's Container Engine using node",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "release": "standard-verison"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "standard-version": "^4.2.0"
   }
 }
