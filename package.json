@@ -1,6 +1,6 @@
 {
   "name": "@npm/container-engine",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "interact with Google Cloud's Container Engine using node",
   "main": "index.js",
   "scripts": {
